@@ -1,0 +1,35 @@
+body {
+    background-color: #1c1c1c;
+    color: blanchedalmond;
+    font-family: "Verdana", serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin: 8px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    transform: translateY(-2px);
+    transition-duration: 100ms;
+}
