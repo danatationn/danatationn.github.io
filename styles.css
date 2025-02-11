@@ -27,9 +27,20 @@ li a {
     display: block;
     text-align: center;
     text-decoration: none;
+    
+    background: blanchedalmond;
+    padding: 8px;
+    border-radius: 8px;
+    color: #1c1c1c;
 }
 
 li a:hover {
     transform: translateY(-2px);
     transition-duration: 100ms;
+    border-radius: 16px;
+    background-color: lightskyblue;
+}
+
+li a:active {
+    border-radius: 2px;
 }
