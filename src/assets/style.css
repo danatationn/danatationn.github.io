@@ -46,7 +46,8 @@ li a:hover {
 }
 
 li a:active {
-	border-radius: 24px;
+	background-color: blanchedalmond;
+	border-radius: 8px;
 }
 
 h5 {
@@ -58,12 +59,12 @@ h5 {
 h3 {
 	position: absolute;
 	text-align: center;
-	bottom: 25vh;
+	bottom: calc(25vh - 100px);
 }
 
 @media (max-width: 768px) {
 	ul {
-		width: 50%;
+		width: 67%;
 	}
 	
 	li a {

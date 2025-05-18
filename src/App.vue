@@ -3,13 +3,15 @@
 	const currentUsername = ref('');
 	
 	var socials = [
+		['discord', '@danatationn', 'https://discord.com/users/1282386549685878864'],
+		['email', 'lemontasteicetea@proton.me', 'mailto:lemontasteicetea@pm.me'],
+		['github', '@danatationn', 'https://github.com/danatationn'],
+		['instagram', 'danatationn', 'https://www.instagram.com/danatationn/'],
+		['last.fm', 'drunkromanian', 'https://www.last.fm/user/drunkromanian'],
+		['reddit', 'u/danatationn', 'https://reddit.com/user/danatationn'],
+		['steam', 'danatationn', 'https://steamcommunity.com/id/danatationn'],
 		['twitter', '@danatationn', 'https://x.com/danatationn'],
 		['vndb', 'u288771', 'https://vndb.org/u288771'],
-		['github', '@danatationn', 'https://github.com/danatationn'],
-		['reddit', 'u/danatationn', 'https://reddit.com/user/danatationn'],
-		['osu', 'drunkromanian', 'https://osu.ppy.sh/users/36007819'],
-		['discord', '@danatationn', 'https://discord.com/users/1282386549685878864'],
-		['email', 'lemontasteicetea@pm.me', 'mailto:lemontasteicetea@pm.me']
 	]
 </script>
 
