@@ -59,7 +59,7 @@ h5 {
 h3 {
 	position: absolute;
 	text-align: center;
-	bottom: calc(25vh - 100px);
+	bottom: calc(25vh - 125px);
 }
 
 @media (max-width: 768px) {
