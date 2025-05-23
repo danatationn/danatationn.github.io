@@ -46,8 +46,10 @@ li a:hover {
 }
 
 li a:active {
+	transition-duration: 50ms;
+	
+	color: #1c1c1c;
 	background-color: blanchedalmond;
-	border-radius: 8px;
 }
 
 h5 {
