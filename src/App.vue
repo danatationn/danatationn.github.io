@@ -10,7 +10,7 @@
 	
 	const socials = [
 		['discord', '@danatationn', 'https://discord.com/users/1282386549685878864'],
-		['email', 'lemontasteicetea@proton.me', 'mailto:lemontasteicetea@pm.me'],
+		['email', 'lemontasteicetea@proton.me', 'mailto:lemontasteicetea@proton.me'],
 		['github', '@danatationn', 'https://github.com/danatationn'],
 		//['instagram', 'danatationn', 'https://www.instagram.com/danatationn/'],
 		['reddit', 'u/danatationn', 'https://reddit.com/user/danatationn'],
