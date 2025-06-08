@@ -6,6 +6,7 @@
 		['rencher', 'a wip game manager for ren\'py visual novels', 'https://github.com/danatationn/rencher'],
 		['twotoned', 'a gimmicky skin for osu!', 'https://osu.ppy.sh/community/forums/topics/2062665?n=1'],
 		['quixotic', 'a monochrome minimalistic skin for quaver', 'https://steamcommunity.com/sharedfiles/filedetails/?id=3119237347'],
+		['game saves', 'not really a project, it\'s just my game saves', 'https://drive.google.com/drive/u/0/folders/1FU32ms9k0orRqWZWYPxa2XpawBniZYpi'],
 	];
 	
 	const socials = [
