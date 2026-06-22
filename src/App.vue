@@ -1,6 +1,9 @@
 <script setup>
-	import {ref} from "vue";
+	import {ref, onMounted} from "vue";
 	const currentLabel = ref('');
+	const projectsLabel = ref('projects');
+	const socialsLabel = ref('socials');
+	const trackersLabel = ref('trackers');
 
 	const projects = [
 		['rencher', 'a game manager for Ren\'Py visual novels', 'https://github.com/danatationn/rencher'],
@@ -28,34 +31,32 @@
 
 <template>
 	<body>
-		<h1>projects</h1>
+		<h1> {{ projectsLabel }}</h1>
 		<ul>
 			<li v-for="project in projects"
-				@mouseover="currentLabel=project[1]"
-				@mouseleave="currentLabel=''">
-				<a :href="project[2]"> {{project[0]}}</a>
+				@mouseover="projectsLabel=project[1]"
+				@mouseleave="projectsLabel='projects'">
+				<a :href="project[2]"> {{project[0]}} </a>
 			</li>
 		</ul>
 
-		<h1>socials</h1>
+		<h1> {{ socialsLabel }}</h1>
 		<ul>
 			<li v-for="social in socials"
-				@mouseover="currentLabel=social[1]"
-				@mouseleave="currentLabel=''">
+				@mouseover="socialsLabel=social[1]"
+				@mouseleave="socialsLabel='socials'">
 				<a :href="social[2]"> {{social[0]}} </a>
 			</li>
 		</ul>
 
-		<h1>trackers</h1>
+		<h1> {{ trackersLabel }}</h1>
 		<ul>
 			<li v-for="tracker in trackers"
-			    @mouseover="currentLabel=tracker[1]"
-			    @mouseleave="currentLabel=''">
+			    @mouseover="trackersLabel=tracker[1]"
+			    @mouseleave="trackersLabel='trackers'">
 				<a :href="tracker[2]"> {{tracker[0]}} </a>
 			</li>
 		</ul>
-
-		<h3>{{ currentLabel }}</h3>
 
 		<h5>© copyright 2026</h5>
 	</body>

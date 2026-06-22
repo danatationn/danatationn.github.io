@@ -1,7 +1,12 @@
+:root {
+	--bg: #18181a;
+	--fg: #d9d9d9;
+}
+
 body {
-	background-color: #1c1c1c;
-	color: blanchedalmond;
-	font-family: "Verdana", sans-serif;
+	background-color: var(--bg);
+	color: var(--fg);
+	font-family: "Lexend", sans-serif;
 
 	display: flex;
 	flex-direction: column;
@@ -14,42 +19,51 @@ body {
 
 ul {
 	display: flex;
-	gap: 16px;
+	/*gap: 16px;*/
+	gap: 0;
 	flex-wrap: wrap;
 	justify-content: center;
-	
+
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	
+
+}
+
+li {
+	flex: 1;
+	display: flex;
 }
 
 li a {
-	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin-left: 8px;
+	margin-right: 8px;
+	/*display: block;*/
 	text-align: center;
 	text-decoration: none;
 
-	background: blanchedalmond;
+	background: var(--fg);
 	padding: 8px;
 	border-radius: 8px;
-	color: #1c1c1c;
+	color: var(--bg);
+
+	transition-duration: 100ms;
 }
 
 li a:hover {
-	transition-duration: 100ms;
+	outline: 1px var(--fg) dashed;
+	outline-offset: 1px;
 
-	box-shadow: inset 0 0 0 .15em blanchedalmond;
-	background-color: #1c1c1c;
-	color: blanchedalmond;
-
-	border-radius: 16px;
+	border-radius: 0;
 }
 
 li a:active {
-	transition-duration: 50ms;
-	
-	color: #1c1c1c;
-	background-color: blanchedalmond;
+	transition-duration: 10ms;
+
+	color: var(--fg);
+	background-color: var(--bg);
 }
 
 h5 {
@@ -58,17 +72,17 @@ h5 {
 	bottom: 8px;
 }
 
-h3 {
+/*h3 {
 	position: absolute;
 	text-align: center;
 	bottom: calc(25vh - 125px);
-}
+}*/
 
 @media (max-width: 768px) {
 	ul {
 		width: 67%;
 	}
-	
+
 	li a {
 		padding: 12px;
 	}
