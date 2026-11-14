@@ -38,7 +38,7 @@ body {
     list-style: none;
 
     background: var(--sh);
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 8px;
 
     outline: 4px solid transparent;
